@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+:root{
+    --color-nav: #256D85;
+    --color-h1:#002B5B;
+    --color-body:#E8F9FD;
+    --color-inputs:rgba(57, 91, 100,0.1) ; 
+
+    /*texts*/
+    --fonts--h1: 'PT Sans', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+    
+}
+body{
+    font-family: var(--fonts--h1);
+    background-color: #fff;
+    
+    
+
+}
+.navbar_title{
+    text-align: center;
+    padding: 20px;
+    background-color: var(--color-h1);
+    color: #fff;
+    
+  }
+.padre{
+    display: flex;
+    height: 100%;
+    background-color: var(--color-nav);
+   padding: 10px;
+
+}
+
+.padre ul a{
+    text-decoration: none; 
+    color: #fff; 
+    font-weight: 700;
+    padding: 90px;
+    min-height: auto;
+    scroll-behavior: smooth; 
+    /**/
+    justify-content: flex-end;
+align-items: stretch;
+flex-wrap: nowrap;
+align-content: stretch;
+    
+    
+}
+
+.about{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 32px;
+}
+.about img{
+    border-radius: 100%;
+    width: 12rem;
+   
+}
+.p_about{
+    padding-top: 45px;
+}
+
+.skills_title {
+    text-align: center;
+}
+.skills{
+    display: flex;
+    justify-items: center;
+    flex-wrap:0.3rem;
+}
+
+.skills img{
+    width: 55px;
+    padding: 10px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+
+.contac_title{
+    text-align: center;
+
+}
+.contac{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    
+}
+
+.contac_title{
+    justify-content: center;
+}
+
+.contac input{
+    border-radius: 3px;
+    padding: 2% 35.5%;
+    background-color: var(--color-inputs);
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    border: none;
+}
+.contac form textarea{
+    border-radius: 3px;
+    padding: 3px;
+    padding-bottom: 10%;
+    padding-left: 41%;
+    background-color: var(--color-inputs);
+    border: none;
+
+}
+.contac .btn{
+    padding: 5% 61%;
+    border: none;
+}
+footer{
+    padding: 20px;
+    height: 100%;
+    background-color: var(--color-nav);
+    text-align: center;
+    color: #fff;
+    
+}
+/*
+ 
+ 
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+ 
+  .hijo{
+    display: flex;
+  }
+  
+ 
+.skills img{
+ width: 77px;
+    
+}
+ 
+  
+
+  
+ .container_principal { 
+     max-width: 900px; 
+     margin: auto; 
+ } 
+  
+ .navbar { 
+     background-color:rgba(0, 0, 0, 9); 
+    
+     width: 100%; 
+     padding: 1em; 
+     z-index: var(--zindex-navbar); 
+ } 
+  
+*/
